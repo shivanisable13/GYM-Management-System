@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="aboutus.css">
+    
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <h3>CAM <span class="colortext">FIT</span>
+            </h3>
+            <div id="part2">
+                <a href="index.html" id="links">Home</a>
+                <a href="aboutus.html" id="links">About us</a>
+                <a href="services.html" id="links">Services</a>
+                <a href="#" class="primary-button button1">Login</a>
+                <a href="#" class="secondary-button button2">Sign in </a>
+            </div>
+        </div>
+
+
+        <div id="heading">
+            <h1>About <span class="colortext">us</span> </h1>
+        </div>
+       
+
+
+        <div id="history-section" >
+            <h2>his<span class="colortext">tory</span> </h2>
+
+            <p class="para1">* Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore quibusdam officiis aspernatur. Corporis ab consectetur maiores ipsum inventore ad, voluptas molestiae nulla!</p>
+            <p class="para1">* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid inventore minus exercitationem amet? Dignissimos, maxime.</p>
+            <p class="para1">* Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ea asperiores provident odit, modi totam ut quaerat nobis vitae, cumque fugiat, ipsam laudantium sit.</p>
+        </div>
+
+        <div id="trainers-section">
+            <h2>Highly Qualified <span class="colortext">Trainers</span> </h2>
+
+            <p class="para1">* Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore quibusdam officiis aspernatur. Corporis ab consectetur maiores ipsum inventore ad, voluptas molestiae nulla!</p>
+            <p class="para1">* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid inventore minus exercitationem amet? Dignissimos, maxime.</p>
+            <p class="para1">* Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ea asperiores provident odit, modi totam ut quaerat nobis vitae, cumque fugiat, ipsam laudantium sit.</p>
+        </div>
+
+
+        <div id="goal-section">
+            <h2>Gym <span class="colortext">Achievements</span> </h2>
+
+            <p class="para1">* Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore quibusdam officiis aspernatur. Corporis ab consectetur maiores ipsum inventore ad, voluptas molestiae nulla!</p>
+            <p class="para1">* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid inventore minus exercitationem amet? Dignissimos, maxime.</p>
+            <p class="para1">* Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ea asperiores provident odit, modi totam ut quaerat nobis vitae, cumque fugiat, ipsam laudantium sit.</p>
+        </div>
+
+        <div id="footer">
+           <p class="para1">@2023-All copy reserved</p>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+    gsap.from("#heading h1",{
+        y:-100,
+        duration:1,
+        delay:1,
+        opacity:0
+    })
+
+    gsap.from("#nav",{
+    y:-100,
+    duration:.5,
+    delay:.5,
+    opacity:0
+   })
+   gsap.from("#history-section h2 , #trainers-section h2 ,#goal-section h2",{
+    x:-100,
+    duration:.5,
+    delay:.5,
+    opacity:0
+   })
+   
+    </script>
+</body>
+</html>

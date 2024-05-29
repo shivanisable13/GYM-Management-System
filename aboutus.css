@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:wght@400;900&family=Lato:wght@300;400&family=Lora:wght@500;600&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Bebas Neue', sans-serif; */
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    width: 100%;
+    /* height: 100%; */
+    background-color: #000;
+}
+
+#nav{
+    color:white;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 50px;
+}
+#nav #part2{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.colortext{
+    color:#A1E533;
+}
+#nav a{
+    text-decoration: none;
+}
+#nav #part2 #links{
+    text-decoration: none;
+    color:white;
+    align-items: center;
+}
+
+#nav #part2 #links:hover{
+    border-bottom: 2px solid #A1E533;
+}
+
+.primary-button {
+    
+    /* border: 1px solid red; */
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.secondary-button{
+    /* border: 1px solid red; */
+    color: black;
+
+    padding: 10px 30px;
+    border-radius: 50px;
+
+}
+
+.button1{
+    font-size: .9em;
+    font-weight: 600;
+    border: 1px solid #A1E533;
+    text-decoration: none;
+
+
+}
+
+.button2{
+    text-decoration: none;
+    font-size: .9em;
+    font-weight: 600;
+    background-color: #A1E533;
+    
+}
+
+#button1:hover{
+    background-color: #A1E533;
+    
+}
+
+
+
+#heading{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.colortext{
+    color:#A1E533;
+}
+
+#trainers-section{
+
+    width: 100%;
+    height: 300px;
+
+    /* background-color: green; */
+    /* margin-top: 10px; */
+    display: flex;
+    align-items:  start;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 1% ;
+    gap: 20px;
+    
+    
+
+
+}
+
+#trainers-section h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.para1{
+    font-size: .9rem;
+    color: #a6a6a6;
+    width: 60%;
+    line-height: 1.5;
+    
+
+}
+
+#history-section{
+
+    width: 100%;
+    height: 300px;
+
+    /* background-color: green; */
+    /* margin-top: 10px; */
+    
+    display: flex;
+    align-items:  start;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 5% ;
+    gap: 20px;
+    
+
+
+}
+
+
+
+#history-section h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
+#goal-section{
+
+    width: 100%;
+    height: 300px;
+
+    /* background-color: green; */
+    /* margin-top: 10px; */
+    display: flex;
+    align-items:  start;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 1% ;
+    gap: 20px;
+    
+    /* border-bottom: 2px solid #a6a6a6; */
+    
+
+
+}
+
+#goal-section h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+
+#footer{
+    width: 100%;
+    height: 50px;
+    margin-left: 44%;
+    margin-top: 20px;
+    /* border-top: 2px solid #a6a6a6; */
+}
